@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "474953957370",
+    "project_id": "civiclens-ai-70fdc",
+    "storage_bucket": "civiclens-ai-70fdc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474953957370:android:da5c8f0bfec0b497b02e43",
+        "android_client_info": {
+          "package_name": "com.example.civiclens_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474953957370-lgrnatl4sonntfvjvsua18b9pqk6595m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUe5gHVwXO1V968bM098gwxE8_CP6Blxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474953957370-lgrnatl4sonntfvjvsua18b9pqk6595m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "474953957370-tfj2jgv4vbtqjuud1vbfj0nne2g209fr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.civiclensAi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

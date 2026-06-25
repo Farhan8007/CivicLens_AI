@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>474953957370-tfj2jgv4vbtqjuud1vbfj0nne2g209fr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.474953957370-tfj2jgv4vbtqjuud1vbfj0nne2g209fr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDi8_67hws3fXmA7xaiNJlc3a6pzYcbGMA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>474953957370</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.civiclensAi</string>
+	<key>PROJECT_ID</key>
+	<string>civiclens-ai-70fdc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>civiclens-ai-70fdc.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:474953957370:ios:084e3ca002b4066db02e43</string>
+</dict>
+</plist>
