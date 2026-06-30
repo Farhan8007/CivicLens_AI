@@ -47,3 +47,12 @@ app.*.map.json
 # Script logs and workspace helper scripts
 patch_home.py
 transcript_home.txt
+
+# Firebase & Google services config files (contain API keys — add your own from Firebase Console)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Android local secrets (Maps API key, SDK paths — never commit)
+android/local.properties
