@@ -10,14 +10,11 @@ CivicLens AI bridges the gap between citizens and local government. By transform
 
 ---
 
-## 🎨 Visual Preview & Screenshots
+## 🎨 Screenshots
 
-> [!NOTE]
-> *Screenshots can be added here post-deployment. The slots below are configured for responsive previews.*
-
-| Onboarding & Login | AI Insights Dashboard | Interactive Issues Map |
+| Login Screen | AI Insights Dashboard | Interactive Issue Map |
 | :---: | :---: | :---: |
-| ![Login Screen](https://via.placeholder.com/280x600?text=Login+Screen) | ![AI Dashboard](https://via.placeholder.com/280x600?text=AI+Dashboard) | ![Maps View](https://via.placeholder.com/280x600?text=Maps+View) |
+| ![Login Screen](assets/screenshots/login_screen.png) | ![AI Dashboard](assets/screenshots/ai_dashboard.png) | ![Issue Map](assets/screenshots/issue_map.png) |
 
 ---
 
