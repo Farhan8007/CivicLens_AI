@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "474953957370-1q94jigqv3qkl5le4iaj31500vtveh98.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.civiclens_ai",
+            "certificate_hash": "2e7df7c4cfdf766c12ca25abebfc3da36e0e17e5"
+          }
+        },
+        {
           "client_id": "474953957370-lgrnatl4sonntfvjvsua18b9pqk6595m.apps.googleusercontent.com",
           "client_type": 3
         }

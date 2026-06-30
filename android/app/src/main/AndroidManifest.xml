@@ -1,8 +1,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Required for Google Maps tiles and Firebase network access. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Required for geolocator to fetch current location -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:label="civiclens_ai"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC98zFYHLppJKZH61flwak7dGtfacepnF8" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
