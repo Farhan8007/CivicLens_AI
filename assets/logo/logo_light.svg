@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Definitions for Gradients -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/> <!-- Royal Blue -->
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/> <!-- Emerald Green -->
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Location Pin Body (Map/Location Representation) -->
+  <path d="M256,40 C156.6,40 76,120.6 76,220 C76,336.5 256,472 256,472 C256,472 436,336.5 436,220 C436,120.6 355.4,40 256,40 Z" 
+        fill="url(#blueGrad)" />
+
+  <!-- Outer Ring inside Pin -->
+  <circle cx="256" cy="220" r="120" fill="#FFFFFF" opacity="0.15"/>
+  <circle cx="256" cy="220" r="105" fill="#FFFFFF"/>
+
+  <!-- Aperture Blades (Camera/Lens - Civic Monitoring Representation) -->
+  <g fill="url(#greenGrad)" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">
+    <!-- Blade 1 -->
+    <path d="M256,120 L310,174 L256,228 Z" />
+    <!-- Blade 2 -->
+    <path d="M356,220 L302,274 L256,220 Z" />
+    <!-- Blade 3 -->
+    <path d="M256,320 L202,266 L256,212 Z" />
+    <!-- Blade 4 -->
+    <path d="M156,220 L210,166 L256,220 Z" />
+    <!-- Blade 5 -->
+    <path d="M202,166 L256,120 L256,220 Z" opacity="0.85" />
+    <!-- Blade 6 -->
+    <path d="M310,274 L256,320 L256,220 Z" opacity="0.85" />
+  </g>
+
+  <!-- Center Hub / Lens Core -->
+  <circle cx="256" cy="220" r="32" fill="#FFFFFF" />
+
+  <!-- AI Connection Nodes Surrounding Lens Core (AI Representation) -->
+  <g stroke="#2563EB" stroke-width="5" opacity="0.8">
+    <line x1="256" y1="120" x2="356" y2="220" />
+    <line x1="356" y1="220" x2="256" y2="320" />
+    <line x1="256" y1="320" x2="156" y2="220" />
+    <line x1="156" y1="220" x2="256" y2="120" />
+  </g>
+
+  <!-- Network Intersection Nodes -->
+  <circle cx="256" cy="120" r="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="356" cy="220" r="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="256" cy="320" r="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="156" cy="220" r="10" fill="#FFFFFF" stroke="#2563EB" stroke-width="4"/>
+</svg>
