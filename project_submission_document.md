@@ -178,10 +178,14 @@ gantt
     Predictive Infrastructure:         des6, 2026-08-20, 2026-09-10
 ```
 
-*   **🎙️ Voice-Activated Reporting**: Use speech-to-text to let users report issues hands-free.
-*   **💬 AI Assistant Bot**: Add a citizen-facing chat assistant to answer local municipal questions.
-*   **🏢 Government Portal (Open311)**: Push resolved issues directly to municipal management systems automatically.
-*   **🌐 Offline Reporting Mode**: Cache reports locally when offline, and upload when a connection is restored.
+*   **🎙️ Voice-Activated Reporting (Accessibility)**: Incorporate automatic Speech-to-Text translation via Google Cloud Speech-to-Text API, allowing hands-free issue logging for users who are driving, visually impaired, or prefer audio descriptions.
+*   **💬 Conversational AI Chat Assistant**: Embed a citizen-facing assistant bot leveraging Gemini LLM to answer user inquiries regarding local municipal codes, collection guidelines, updates on reported status, and civic queries.
+*   **🔍 Proactive Semantic Duplicate Detection**: Implement advanced duplicate checks in the report creation stage using vector embeddings of issue descriptions, alerting users of active nearby duplicates before submission.
+*   **📈 Predictive Municipal Analytics**: Introduce time-series forecasting models to identify infrastructure deterioration patterns (such. as seasonal flooding zones or potholes following monsoons) to let municipalities execute preventive repairs.
+*   **🔥 Geospatial Heatmaps & Planning Dashboards**: Layer heatmap visualizations over Google Maps displaying complaint density zones to help urban planners identify systemic failures in city infrastructure.
+*   **🏢 Government CRM & Open311 Integration**: Connect the backend platform directly to official city work-order management systems using the standard Open311 APIs for automated, human-free ticket dispatch.
+*   **🔔 FCM Push Notifications & Live Tracking**: Implement Firebase Cloud Messaging (FCM) to send real-time push alerts updating users when their tickets shift from "Reported" to "In Progress" to "Resolved".
+*   **🌐 Offline Reporting (Local Cache Engine)**: Integrate Hive/SQLite local caching to queue reports (including media metadata) when network connectivity is lost, auto-syncing with Firestore once a connection is re-established.
 
 ---
 
