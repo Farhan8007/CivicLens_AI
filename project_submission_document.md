@@ -222,5 +222,5 @@ The following table references screenshots of the CivicLens AI user interface:
 ## 16. Submission References
 
 *   **GitHub Code Repository**: [https://github.com/Farhan8007/CivicLens_AI](https://github.com/Farhan8007/CivicLens_AI)
-*   **APK Download Link**: *[Insert Download URL post-build]*
-*   **Video Demo Link**: *[Insert Hackathon Demo Video URL]*
+*   **APK Download Link**: https://civiclens-ai-70fdc.web.app
+
