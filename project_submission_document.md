@@ -10,11 +10,10 @@
 ---
 
 ### **Team Details**
-* **Team Name:** [Insert Team Name]
+* **Team Name:** CivicLens AI
 * **Team Members:**
   * **Farhan** — Lead Mobile & Backend Developer
-  * [Insert Team Member 2 Name] — [Insert Role]
-  * [Insert Team Member 3 Name] — [Insert Role]
+  
 
 ---
 
